@@ -35,6 +35,18 @@ Age is just a tool for simply generating a public-private key pair. There's a pl
 
 You can review the SOPS documentation for a full list. Age is just recommended to start you off.
 
+### Usage
+
+Generate a new Age key set
+
+```sh
+age-keygen > keys.txt
+```
+
+> [!NOTE]
+>
+> See [SOPS encrypting with Age keys](https://github.com/getsops/sops?tab=readme-ov-file#23encrypting-using-age) for documentation about where SOPS will be looking for your key file.
+
 ## References
 
 - [SOPS](https://github.com/getsops/sops)
